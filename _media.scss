@@ -76,6 +76,22 @@
          padding-top: 0;
       }
    }
+
+   /*****************Product Page*****************/
+   .main__product {
+      height: 625px;
+   }
+   .main__img {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      height: 565px;
+   }
+   .specification {
+      margin-top: 0;
+   }
+   .product-box--product {
+      padding-top: 0;
+   }
 }
 
 @media(max-width: 425px) {

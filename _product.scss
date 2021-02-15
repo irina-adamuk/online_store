@@ -73,11 +73,10 @@
       -webkit-box-pack: center;
          -ms-flex-pack: center;
             justify-content: center;
-      position: relative;
       background: #F7F7F7;
    }
    &__img {
-      height: 724px;
+      height: 701px;
    }   
 }
 
@@ -87,6 +86,7 @@ summary:hover {
 }
 
 .specification {
+   max-width: 1140px;
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -97,20 +97,15 @@ summary:hover {
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
-   max-width: 1140px;
-   margin: 0 auto;
-   padding: 64px 250px;
+   margin-top: -65px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 64px 0;
    background: $colorLight;
    border: 1px solid #EAEAEA;
-   position: absolute;
-   top: 920px;
-   left: calc(50% - 570px);
-   right: calc(50% - 570px);
-   z-index: 1;
 
    &__top {
-      padding-left: calc(50% - 290px);
-      padding-right: calc(50% - 290px);
+      max-width: 570px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -179,6 +174,7 @@ summary:hover {
    }
 
    &__bottom {
+      max-width: 570px;
       position: relative;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -384,10 +380,5 @@ details summary::-webkit-details-marker {
    background-size: contain;
 }
 
-.collection--product {
-   margin-top: 670px;
-   margin-bottom: 0;
-   padding-bottom: 0;
-}
 
 

@@ -295,7 +295,7 @@ body {
 }
 
 .product-box--product {
-  margin-top: 630px;
+  margin-top: 129px;
   padding-top: 0;
   padding-bottom: 140px;
 }
@@ -745,12 +745,11 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  position: relative;
   background: #F7F7F7;
 }
 
 .main__img {
-  height: 724px;
+  height: 701px;
 }
 
 /************ Specification ************/
@@ -759,6 +758,7 @@ summary:hover {
 }
 
 .specification {
+  max-width: 1140px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -769,21 +769,16 @@ summary:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 64px 250px;
+  margin-top: -65px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 0;
   background: #ffffff;
   border: 1px solid #EAEAEA;
-  position: absolute;
-  top: 920px;
-  left: calc(50% - 570px);
-  right: calc(50% - 570px);
-  z-index: 1;
 }
 
 .specification__top {
-  padding-left: calc(50% - 290px);
-  padding-right: calc(50% - 290px);
+  max-width: 570px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -852,6 +847,7 @@ summary:hover {
 }
 
 .specification__bottom {
+  max-width: 570px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1054,12 +1050,6 @@ details summary::-webkit-details-marker {
 .options__checkbox input[type=checkbox]:checked + span:before {
   background: url("../img/catalog/cross.png") 0 0 no-repeat;
   background-size: contain;
-}
-
-.collection--product {
-  margin-top: 670px;
-  margin-bottom: 0;
-  padding-bottom: 0;
 }
 
 /************************** Catalog Page **************************/
@@ -1770,6 +1760,21 @@ input::placeholder {
     left: calc(100% - 350px);
   }
   .product-box--catalog {
+    padding-top: 0;
+  }
+  /*****************Product Page*****************/
+  .main__product {
+    height: 625px;
+  }
+  .main__img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 565px;
+  }
+  .specification {
+    margin-top: 0;
+  }
+  .product-box--product {
     padding-top: 0;
   }
 }
