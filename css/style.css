@@ -1756,6 +1756,22 @@ input::placeholder {
   .subscribe__text {
     max-width: 360px;
   }
+  /*****************Catalog Page*****************/
+  .sort-box {
+    padding-top: 24px;
+    padding-bottom: 0;
+    height: 80px;
+  }
+  .options {
+    margin-bottom: 0;
+  }
+  .options--catalog {
+    top: 245px;
+    left: calc(100% - 350px);
+  }
+  .product-box--catalog {
+    padding-top: 0;
+  }
 }
 
 @media (max-width: 425px) {
@@ -1886,6 +1902,44 @@ input::placeholder {
             flex-direction: column-reverse;
     padding-top: 43px;
     padding-bottom: 9px;
+  }
+  /*****************Catalog Page*****************/
+  .breadcrumb {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .options__color,
+  .options__size,
+  .options__quantity {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .filter__title {
+    font-size: 0;
+  }
+  .filter[open] {
+    width: 100%;
+  }
+  .options__trending {
+    width: 130px;
+  }
+  .options--catalog details:not(:last-child) {
+    margin-right: 10px;
+  }
+  .options--catalog {
+    left: calc(100% - 295px);
+  }
+  .filter__icon {
+    width: 37px;
+    height: 25px;
+  }
+  .product-box--catalog {
+    padding-top: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
