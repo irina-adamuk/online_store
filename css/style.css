@@ -1248,6 +1248,8 @@ details summary::-webkit-details-marker {
 }
 
 .registration__form {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 360px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1267,7 +1269,9 @@ details summary::-webkit-details-marker {
 }
 
 .registration__input {
-  width: 326px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
   padding: 13px 16px;
   margin-bottom: 21px;
   border: 1px solid #A4A4A4;
@@ -1278,7 +1282,7 @@ details summary::-webkit-details-marker {
 }
 
 .registration__radio {
-  margin: 34px 10px 34px 0;
+  margin-right: 10px;
 }
 
 .registration__description {
@@ -1321,14 +1325,20 @@ details summary::-webkit-details-marker {
       -ms-flex-direction: column;
           flex-direction: column;
   border: none;
-  width: 360px;
+  width: 100%;
 }
 
 .inputs__wrapper--small {
+  margin-top: 31px;
+  margin-bottom: 33px;
+  width: 250px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 input::-webkit-input-placeholder {
@@ -1826,6 +1836,29 @@ input::placeholder {
   .checkout {
     margin-top: 38px;
   }
+  /************Registration Page*****************/
+  .registration {
+    padding-top: 40px;
+  }
+  .registration__form {
+    width: 49%;
+  }
+  .advantages {
+    width: 49%;
+  }
+  .advantages__title {
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .advantages__text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .advantages__item {
+    font-size: 16px;
+    line-height: 19px;
+  }
 }
 
 /*******************************************************Media*/
@@ -2091,6 +2124,23 @@ input::placeholder {
   }
   .checkout {
     margin-top: 48px;
+  }
+  /************Registration Page*****************/
+  .registration {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .registration__form {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .advantages {
+    width: 100%;
   }
 }
 

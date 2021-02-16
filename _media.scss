@@ -117,6 +117,30 @@
    .checkout {
       margin-top: 38px;
    }
+   /************Registration Page*****************/
+   .registration {
+      padding-top: 40px;
+      &__form {
+         width: 49%;
+      }
+   }
+   .advantages{
+      width: 49%;
+      &__title {
+         margin-bottom: 32px;
+
+         font-size: 16px;
+         line-height: 19px;
+      }
+      &__text {
+         font-size: 16px;
+         line-height: 19px;
+      }
+      &__item {
+         font-size: 16px;
+         line-height: 19px;
+      }
+   }
 }
 /*******************************************************Media*/
 @media (max-width: 767px) {
@@ -348,6 +372,19 @@
    }
    .checkout {
       margin-top: 48px;
+   }
+   /************Registration Page*****************/
+   .registration {
+      flex-direction: column;
+      align-items: center;
+      
+      &__form {
+         margin-bottom: 40px;
+         width: 100%;
+      }
+   }
+   .advantages {
+      width: 100%;
    }
 }
 

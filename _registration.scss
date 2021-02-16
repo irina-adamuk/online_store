@@ -7,6 +7,7 @@
    justify-content: space-between;
 
    &__form {
+      box-sizing: border-box;
       width: 360px;
       display: flex;
       flex-direction: column;
@@ -23,7 +24,8 @@
    }
 
    &__input {
-      width: 326px;
+      box-sizing: border-box;
+      width: 100%;
       padding: 13px 16px;
       margin-bottom: 21px;
       
@@ -35,7 +37,7 @@
    }
    
    &__radio {
-      margin: 34px 10px 34px 0;
+      margin-right: 10px;
    }
    
    &__description {
@@ -73,8 +75,6 @@
    &__icon {
       fill: $colorLight;
    }
-   
-   
 }
 
 .inputs__wrapper {
@@ -82,10 +82,16 @@
    flex-direction: column;
    border: none;
    
-   width: 360px;
+   width: 100%;
    
    &--small {
+      margin-top: 31px;
+      margin-bottom: 33px;
+      
+      width: 250px;
       flex-direction: row;
+      justify-content: space-between;
+
    }
 }
 
