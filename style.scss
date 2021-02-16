@@ -336,6 +336,7 @@ body {
    
    &__img {
       width: 100%;
+      transition: filter 0.2s linear;
    }
    
    &__info {
@@ -423,6 +424,7 @@ body {
    color: #F26376;
 
    outline: none;
+   transition: background-color 0.2s linear, color 0.2s linear;
    
    &:hover {
       color: $colorLight;
@@ -587,6 +589,7 @@ body {
       text-align: center;
 
       color: $colorLight;
+      transition: background-color 0.2s linear;
       
       &:hover {
          background-color: #E05C6E;
@@ -625,6 +628,7 @@ body {
 
       text-decoration: none;
       color: $colorText;
+      transition: fill 0.2s linear, background-color 0.2s linear;
 
       &:hover {
          background-color: $colorSelect;

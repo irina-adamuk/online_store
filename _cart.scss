@@ -106,7 +106,7 @@
          
       color: #000000;
       border: 1px solid #A4A4A4;
-      transition: background 0.2s linear;
+      transition: background-color 0.2s linear;
       &:hover {
          background-color: $colorSelect;
          cursor: pointer;
@@ -178,7 +178,7 @@
       
       border-radius: none;
       border: 1px solid #A4A4A4;
-      transition: background 0.2s linear;
+      transition: background-color 0.2s linear;
       
       &:hover {
          cursor: pointer;
@@ -251,7 +251,7 @@
 
       color: $colorLight;
       text-transform: uppercase;
-      transition: background 0.2s linear;
+      transition: background-color 0.2s linear;
       
       &:hover {
          cursor: pointer;
