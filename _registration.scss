@@ -30,6 +30,7 @@
       margin-bottom: 21px;
       
       border: 1px solid #A4A4A4;
+      outline: none;
       
       &--last {
          margin-bottom: 0;
@@ -38,6 +39,7 @@
    
    &__radio {
       margin-right: 10px;
+      outline: none;
    }
    
    &__description {
@@ -63,6 +65,7 @@
 
       color: $colorLight;
       text-transform: uppercase;
+      outline: none;
       
       &:hover {
          cursor: pointer;

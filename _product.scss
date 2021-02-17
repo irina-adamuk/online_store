@@ -203,6 +203,8 @@ summary:hover {
          -ms-flex-align: center;
             align-items: center;
       border: 1px solid #EF5B70;
+      outline: none;
+
       transition: background-color 0.2s linear;
       
       &:hover {
@@ -359,8 +361,8 @@ details summary::-webkit-details-marker {
    position: absolute;
    left: 0;
    top: 0;
-   -webkit-transition: background 0.3s ease;
-   transition: background 0.3s ease;
+   -webkit-transition: background-color 0.3s ease;
+   transition: background-color 0.3s ease;
    border: 1px solid #EBEBEB;
 }
 
@@ -372,8 +374,8 @@ details summary::-webkit-details-marker {
    position: absolute;
    left: 0;
    top: 0;
-   -webkit-transition: background 0.3s linear;
-   transition: background 0.3s linear;
+   -webkit-transition: background-color 0.3s linear;
+   transition: background-color 0.3s linear;
    background-image: none;
 }
 
