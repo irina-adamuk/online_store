@@ -118,11 +118,19 @@ a {
       text-decoration: none;
    }
 }
-
+html, body {
+   height: 100%;
+}
 body {
+   display: flex;
+   flex-direction: column;
+
    font-family: 'Lato', sans-serif;
    font-style: normal;
    font-weight: normal;
+}
+.page-wrapper {
+   flex: 1 0 auto;
 }
 
 .center {
@@ -598,6 +606,7 @@ body {
 .footer {
    display: flex;
    flex-direction: column;
+   flex-shrink: 0;
 }
 .subscribe {
    display: flex;
@@ -662,7 +671,6 @@ body {
       text-transform: uppercase;
    }
    
-
    &__input {
       background: #E1E1E1;
       width: 256px;

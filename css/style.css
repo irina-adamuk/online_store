@@ -143,10 +143,27 @@ a:hover {
   text-decoration: none;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
+}
+
+.page-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
 
 .center {
@@ -647,6 +664,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .subscribe {
